@@ -1,0 +1,51 @@
+{
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.tree.indent": 20,
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#008070"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "editor.mouseWheelZoom": true,
+    "gitlens.hovers.currentLine.over": "line",
+    "cSpell.userWords": [
+        "customise"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "python": false
+    },
+    "window.zoomLevel": -1,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "githubPullRequests.pullBranch": "never",
+    "redhat.telemetry.enabled": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "gitlens.hovers.enabled": false,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.ignoreBracketedPasteMode": true,
+    "flake8.args": [
+        "--max-line-length=120"
+     ],
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "Darcula from Pycharm (Dark)",
+}
