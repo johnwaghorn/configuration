@@ -1,6 +1,10 @@
 # tmux
 
-How-to do things with current configuration
+How-to do things with current configuration.
+
+## Config
+
+Place config file `~/.tmux.conf`
 
 ## How to copy
 
