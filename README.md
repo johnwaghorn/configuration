@@ -1,2 +1,3 @@
 # configuration
-configuration for various software
+
+Configurations for various software and .dotfiles
