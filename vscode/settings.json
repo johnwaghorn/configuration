@@ -40,12 +40,13 @@
         "enabled": true
     },
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "remote.autoForwardPortsSource": "hybrid",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
     "terminal.integrated.ignoreBracketedPasteMode": true,
     "terminal.integrated.rightClickBehavior": "paste",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "remote.autoForwardPortsSource": "hybrid",
     "flake8.args": [
-        "--max-line-length=120"
+        "--max-line-length=79"
      ],
     "explorer.compactFolders": false,
 }
