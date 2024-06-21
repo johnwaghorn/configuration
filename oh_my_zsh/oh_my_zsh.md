@@ -1,6 +1,6 @@
 # Oh My Zsh
 
-This is a simple setup script for Oh My Zsh with the starship prompt.
+Oh my zsh is a popular zsh configuration framework. It comes with a lot of plugins and themes. The starship prompt is a fast and customizable prompt that can be used with Oh My Zsh. This is a simple setup guide for Oh My Zsh with the starship prompt.
 
 ## Prerequisites
 
