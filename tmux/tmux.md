@@ -2,9 +2,37 @@
 
 How-to do things with current configuration.
 
-## Config
+## Installation
+
+### Install tmux
+
+On Ubuntu
+
+```bash
+sudo apt install tmux
+```
+
+or on macOS
+
+```bash
+brew install tmux
+```
+
+### Install plugin manager
+
+```bash
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+### Add Config
 
 Place config file `~/.tmux.conf`
+
+### Install plugins
+
+- Start tmux
+- Press `ctrl+a` and then `I` to install plugins
+- Press `ctrl+a` and then `r` to reload config
 
 ## How to copy
 
