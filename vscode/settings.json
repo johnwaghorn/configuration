@@ -1,56 +1,71 @@
 {
-    "debug.allowBreakpointsEverywhere": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.tree.indent": 20,
-    "workbench.colorCustomizations": {
-        "tree.indentGuidesStroke": "#008070"
-    },
-    "workbench.iconTheme": "vscode-icons",
-    "editor.mouseWheelZoom": true,
-    "gitlens.hovers.currentLine.over": "line",
-    "cSpell.userWords": [
-        "customise"
-    ],
-    "editor.inlineSuggest.enabled": true,
     "[markdown]": {
         "editor.wordWrap": "bounded",
         "editor.wordWrapColumn": 79
-    },  
-    "github.copilot.enable": {
-        "rust": true,
-        "python": true,
-        "markdown": true,
-        "yaml": true,
-        "json": true
     },
-    "gitlens.currentLine.enabled": false,
-    "gitlens.codeLens.enabled": false,
-    "githubPullRequests.pullBranch": "never",
-    "redhat.telemetry.enabled": false,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "gitlens.hovers.enabled": false,
-    "editor.minimap.enabled": false,
     "[python]": {
         "editor.formatOnType": true
     },
-    "window.zoomLevel": 1,
-    "vsicons.dontShowNewVersionMessage": true,
+    "cSpell.language": "en,en-GB",
+    "cSpell.userWords": [
+        "customise"
+    ],
+    "css.lint.important": "warning",
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.cursorBlinking": "phase",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true
+    },
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "flake8.args": [
+        "--max-line-length=79"
+    ],
+    "flake8.severity": {
+        "E": "Warning",
+        "F": "Error",
+        "I": "Error",
+        "W": "Error"
+    },
+    "github.copilot.enable": {
+        "json": true,
+        "markdown": true,
+        "python": true,
+        "rust": true,
+        "yaml": true,
+        "html": true
+    },
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false,
+    "html.format.enable": true,
+    "jupyter.askForKernelRestart": false,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "redhat.telemetry.enabled": false,
+    "remote.autoForwardPortsSource": "hybrid",
     "rust-analyzer.inlayHints.chainingHints.enable": false,
     "rust-analyzer.inlayHints.closingBraceHints.enable": false,
     "rust-analyzer.inlayHints.parameterHints.enable": false,
     "rust-analyzer.inlayHints.typeHints.enable": false,
-    "editor.semanticTokenColorCustomizations": {
-        "enabled": true
-    },
+    "scss.lint.important": "warning",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
     "terminal.integrated.ignoreBracketedPasteMode": true,
     "terminal.integrated.rightClickBehavior": "paste",
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "remote.autoForwardPortsSource": "hybrid",
-    "flake8.args": [
-        "--max-line-length=79"
-     ],
-    "explorer.compactFolders": false
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#70a3f1"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.tree.indent": 10
 }
