@@ -11,3 +11,13 @@ To list all installed extensions, run the following command:
 ```bash
 code --list-extensions
 ```
+
+## Adding autosave
+
+To enable autosave, add the following to the settings.json file:
+
+```json
+{
+  "files.autoSave": "onFocusChange",
+}
+```
