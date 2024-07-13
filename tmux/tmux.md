@@ -2,7 +2,7 @@
 
 tmux is a terminal multiplexer. It lets you switch easily between several programs in one terminal, detach them (they keep running in the background) and reattach them to a different terminal. This guide covers how to install tmux, how to install plugins, and how to use tmux.
 
-## Installation
+## Installation and Configure
 
 ### Install tmux
 
@@ -34,27 +34,14 @@ Place config file `~/.tmux.conf`
 - Press `ctrl+a` and then `I` to install plugins
 - Press `ctrl+a` and then `r` to reload config
 
-## How to copy
+## Look and Feel
 
-- Start a selection with `ctrl+a` and then `[`
-- Move up with arrow keys to area you want to copy and use `v` to select
-- Press `y` to copy selected area to clipboard
+What this custom tmux configuration looks like when you are in a tmux session:
 
-## How to split panes
+![tmux](tmux.png)
 
-- split in half horizontally with `ctrl+a` and then `"`
-- split in half vertically with `ctrl+a` and then `%`
+Bear in mind that the prompt is configured separately using [Starship](../starship/starship.md).
 
-## tmux useful commands
+## Local Links
 
-list sessions
-
-```bash
-tmux ls
-```
-
-delete session
-
-```bash
-tmux kill-session -t <session_name>
-```
+- [Tmux Useful Commands](tmux_useful_commands.md)
