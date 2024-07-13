@@ -19,3 +19,9 @@ To configure Starship, create a `~/.config/starship.toml` file. Here is an examp
 ```toml
 # ~/.config/starship.toml
 ```
+
+## Look and feel
+
+What this custom prompt configuration looks like when you are in a directory that utilises git, python, node and docker, after running a simple `ls` command:
+
+![Starship prompt](starship_prompt.png)

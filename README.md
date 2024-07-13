@@ -2,6 +2,10 @@
 
 Configurations for various tools and .dotfiles.
 
-An example of a tmux terminal session this config can produce:
+## Look and Feel
 
-![image](https://github.com/johnwaghorn/configuration/assets/9802790/4e4861bd-a844-4497-b1d2-9aae94719e1a)
+### Terminal
+
+What this custom [tmux](tmux/tmux.md) configuration looks like when paired with the [Starship](starship/starship.md) prompt:
+
+![tmux](tmux/tmux.png)
