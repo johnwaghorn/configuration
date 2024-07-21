@@ -1,10 +1,10 @@
-# Oh My Zsh
+# Oh My Zsh!
 
-Oh my zsh is a popular zsh configuration framework. It comes with a lot of plugins and themes. The starship prompt is a fast and customizable prompt that can be used with Oh My Zsh. This is a simple setup guide for Oh My Zsh with the starship prompt.
+Oh My Zsh! is a popular zsh configuration framework. It comes with a lot of plugins and themes. The starship prompt is a fast and customizable prompt that can be used with Oh My Zsh!. This is a simple setup guide for Oh My Zsh! with the starship prompt.
 
-## Prerequisites
+To follow this guide please follow the steps below in order.
 
-### Install Zsh
+## Install Zsh
 
 On Ubuntu
 
@@ -12,30 +12,29 @@ On Ubuntu
 sudo apt install zsh
 ```
 
-or on macOS, you probably already have it installed
+On macOS, you probably already have it installed
 
 ```bash
 brew install zsh
 ```
 
-### Install starship
+> [!NOTE]
+> If you want to install Oh My Zsh! on Windows, you can follow the [Windows Zsh Terminal](./on_windows/windows_zsh_terminal.md) guide.
 
-First install a Nerdfont from [here](https://www.nerdfonts.com/font-downloads)
-
-Then install starship
-
-```bash
-curl -sS https://starship.rs/install.sh | sh
-```
-
-### Install Oh My Zsh
+## Install Oh My Zsh!
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### Run the setup script
+## Install the starship prompt
+
+To setup the starship prompt, follow the [setup guide](../starship/starship.md).
+
+## Run the setup script
+
+To setup the Oh My Zsh! plugins and add the starship prompt to your zsh configuration, you can run the following script.
 
 ```bash
-./omz_first_setup.sh
+./oh_my_zsh_first_setup.sh
 ```

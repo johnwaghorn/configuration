@@ -11,7 +11,7 @@ echo "Adding plugins to Zsh"
 plugins='plugins=(git zsh-autosuggestions zsh-syntax-highlighting)'
 sed -i.bak "s/plugins=(git)/$plugins/g" ~/.zshrc
 
-echo "Adding starship to Zsh"
+echo "Adding starship prompt to Zsh"
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 
 echo "Update your Zsh with the following command: source ~/.zshrc"
