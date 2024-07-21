@@ -1,9 +1,9 @@
 format = """
 $directory\
-[](fg:#769ff0 bg:#394260)\
+[](fg:#1e8be2 bg:#125287)\
 $git_branch\
 $git_status\
-[](fg:#394260 bg:#212736)\
+[](fg:#125287 bg:#394260)\
 $python\
 $c\
 $elixir\
@@ -20,11 +20,11 @@ $scala\
 $docker_context\
 $aws\
 $cmd_duration\
-[](fg:#212736)\
+[](fg:#394260)\
 \n$character"""
 
 [directory]
-style = "fg:#000000 bg:#769ff0 bold"
+style = "fg:#FFFFFF bg:#1e8be2 bold"
 format = "[ $path ]($style)"
 
 [directory.substitutions]
@@ -35,86 +35,86 @@ format = "[ $path ]($style)"
 
 [git_branch]
 symbol = ""
-style = "fg:#769ff0 bg:#394260 bold"
+style = "fg:#ffffff bg:#125287"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "fg:#769ff0 bg:#394260"
+style = "fg:#ffffff bg:#125287"
 format = '[($all_status$ahead_behind )]($style)'
 
 [nodejs]
 symbol = ""
-style = "fg:#769ff0 bg:#212736 bold green"
+style = "fg:#769ff0 bg:#394260 bold green"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
-style = "bg:#212736"
+style = "bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [golang]
 symbol = ""
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [php]
 symbol = ""
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [python]
-style = "fg:#769ff0 bg:#212736 bold yellow"
+style = "fg:#769ff0 bg:#394260 bold yellow"
 format = '[ ${symbol}(${version}) (\($virtualenv\)) ]($style)'
 
 [c]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [elm]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = "󰆥 "
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
-style = "fg:#769ff0 bg:#212736"
+style = "fg:#769ff0 bg:#394260"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
-style = "bg:#212736 blue bold"
+style = "bg:#394260 blue bold"
 only_with_files = true
 format = '[ $symbol$context ]($style)'
 
 [cmd_duration]
 min_time = 45
 show_milliseconds = false
-style = "fg:#FFFFFF bg:#212736"
+style = "fg:#FFFFFF bg:#394260"
 format = "[took $duration]($style)"
