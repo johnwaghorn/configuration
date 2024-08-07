@@ -116,7 +116,7 @@ format = '[ $symbol$context ]($style)'
 [aws]
 style = "bg:#394260 bold yellow"
 only_with_files = true
-format = '[$symbol($profile )(\($region\) )(\[$duration\] )]($style)'
+format = '[on $symbol($profile )(\($region\))]($style)'
 
 [cmd_duration]
 min_time = 45
