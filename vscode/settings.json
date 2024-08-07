@@ -13,6 +13,8 @@
     "css.lint.important": "warning",
     "debug.allowBreakpointsEverywhere": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
     "editor.cursorBlinking": "phase",
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
