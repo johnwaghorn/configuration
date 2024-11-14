@@ -39,3 +39,11 @@ To setup the Oh My Zsh! plugins and add the starship prompt to your zsh configur
 ```bash
 ./oh_my_zsh_first_setup.sh
 ```
+
+## Set Zsh as the default shell
+
+```bash
+chsh -s $(which zsh)
+```
+
+Reboot for the changes to take effect.

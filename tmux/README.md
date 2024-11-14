@@ -4,6 +4,12 @@ tmux is a terminal multiplexer. It lets you switch easily between several progra
 
 ## Installation and Configure
 
+### Prerequisites
+
+- Install a copy tool like `xclip` or `pbcopy` to copy text to the clipboard,
+depending on what OS you are using.
+- Install [Fira Code Nerd Font](../fonts/FiraCodeNerdFont-Regular.ttf).
+
 ### Install tmux
 
 On Ubuntu
@@ -26,7 +32,10 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### Add Config
 
-Place config file from this repo's directory into your home directory at `~/.tmux.conf`
+Place config file from this repo's directory into your home directory at `~/.tmux.conf`. Make changes to the config file as needed.
+
+> [!NOTE]
+> You may need to install `xclip` to copy text to the clipboard if you're on a Linux system, or `pbcopy` if you're on macOS.
 
 ### Install plugins
 
@@ -36,6 +45,17 @@ Place config file from this repo's directory into your home directory at `~/.tmu
 
 > [!NOTE]
 > To install the plugins, you must use a capital I.
+
+### Start tmux when you open a terminal
+
+Add the following line to your `.bashrc` or `.zshrc` file:
+
+```bash
+# If not running interactively, do not do anything
+[[ $- != *i* ]] && return
+# Otherwise start tmux
+[[ -z "$TMUX" ]] && exec tmux
+```
 
 ## Look and Feel
 
