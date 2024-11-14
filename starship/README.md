@@ -14,11 +14,7 @@ curl -fsSL https://starship.rs/install.sh | bash
 
 ## Configuration
 
-To configure Starship, create a `~/.config/starship.toml` file. Here is an example configuration:
-
-```toml
-# ~/.config/starship.toml
-```
+To configure Starship copy the [starship.toml](starship.toml) file to `~/.config/starship.toml`.
 
 ## Look and feel
 

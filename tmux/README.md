@@ -26,13 +26,16 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ### Add Config
 
-Place config file `~/.tmux.conf`
+Place config file from this repo's directory into your home directory at `~/.tmux.conf`
 
 ### Install plugins
 
 - Start tmux
 - Press `ctrl+a` and then `I` to install plugins
 - Press `ctrl+a` and then `r` to reload config
+
+> [!NOTE]
+> To install the plugins, you must use a capital I.
 
 ## Look and Feel
 

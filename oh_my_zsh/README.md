@@ -4,6 +4,11 @@ Oh My Zsh! is a popular zsh configuration framework. It comes with a lot of plug
 
 To follow this guide please follow the steps below in order.
 
+## Prerequisites
+
+- Install [Fira Code Nerd Font](../fonts/FiraCodeNerdFont-Regular.ttf)
+- Install [Starship](../starship/README.md)
+
 ## Install Zsh
 
 On Ubuntu
@@ -26,10 +31,6 @@ brew install zsh
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
-## Install the starship prompt
-
-To setup the starship prompt, follow the [setup guide](../starship/starship.md).
 
 ## Run the setup script
 
