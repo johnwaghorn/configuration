@@ -1,4 +1,6 @@
 format = """
+$hostname\
+$os\
 $directory\
 [](fg:#1e8be2 bg:#125287)\
 $git_branch\
@@ -22,6 +24,16 @@ $aws\
 $cmd_duration\
 [](fg:#394260)\
 \n$character"""
+
+[os]
+style = "fg:#FFFFFF bg:#1e8be2 bold"
+format = '[$symbol]($style)'
+disabled = false
+
+[hostname]
+ssh_only = true
+style = "fg:#000000 bg:#1e8be2 bold"
+format = '[󰌘 ]($style)'
 
 [directory]
 style = "fg:#FFFFFF bg:#1e8be2 bold"
@@ -115,7 +127,6 @@ format = '[ $symbol$context ]($style)'
 
 [aws]
 style = "bg:#394260 bold yellow"
-only_with_files = true
 format = '[on $symbol($profile )(\($region\))]($style)'
 
 [cmd_duration]
@@ -123,3 +134,44 @@ min_time = 45
 show_milliseconds = false
 style = "fg:#FFFFFF bg:#394260"
 format = "[took $duration]($style)"
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+Amazon = " "
+Android = " "
+Arch = " "
+Artix = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Windows = "󰍲 "
