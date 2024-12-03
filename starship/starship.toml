@@ -32,7 +32,7 @@ disabled = false
 
 [hostname]
 ssh_only = true
-style = "fg:#000000 bg:#1e8be2 bold"
+style = "fg:#FF5F5F bg:#1e8be2 bold"
 format = '[󰌘 ]($style)'
 
 [directory]
