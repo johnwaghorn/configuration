@@ -126,14 +126,14 @@ only_with_files = true
 format = '[ $symbol$context ]($style)'
 
 [aws]
-style = "bg:#394260 bold yellow"
-format = '[on $symbol($profile )(\($region\))]($style)'
+style = "bg:#394260 fg:#FFD700 bold"
+format = '[󰅧  ($profile) (\($region\))]($style)'
 
 [cmd_duration]
 min_time = 45
 show_milliseconds = false
 style = "fg:#FFFFFF bg:#394260"
-format = "[took $duration]($style)"
+format = "[ took $duration]($style)"
 
 [os.symbols]
 Alpaquita = " "
