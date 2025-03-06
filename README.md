@@ -13,6 +13,6 @@ To setup your terminal, follow the steps below in order:
 
 ### Look and feel
 
-What this custom [tmux](tmux/tmux.md) configuration looks like when paired with the [Starship](starship/starship.md) prompt:
+What this custom [tmux](tmux/README.md) configuration looks like when paired with the [Starship](starship/README.md) prompt:
 
 ![tmux](tmux/tmux.png)

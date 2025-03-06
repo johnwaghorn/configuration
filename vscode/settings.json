@@ -6,6 +6,12 @@
     "[python]": {
         "editor.formatOnType": true
     },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    "[feature]": {
+        "editor.formatOnSave": false
+    },
     "cSpell.language": "en,en-GB",
     "cSpell.userWords": [
         "customise"
@@ -16,6 +22,7 @@
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingQuotes": "never",
     "editor.cursorBlinking": "phase",
+    "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": true,
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
@@ -34,13 +41,18 @@
         "I": "Error",
         "W": "Error"
     },
+    "git.openRepositoryInParentFolders": "never",
     "github.copilot.enable": {
-        "json": true,
+        "*": true,
+        "plaintext": true,
         "markdown": true,
+        "scminput": false,
         "python": true,
         "rust": true,
         "yaml": true,
-        "html": true
+        "html": true,
+        "c": true,
+        "sh": true
     },
     "githubPullRequests.pullBranch": "never",
     "gitlens.codeLens.enabled": false,
@@ -49,6 +61,7 @@
     "gitlens.hovers.enabled": false,
     "html.format.enable": true,
     "jupyter.askForKernelRestart": false,
+    "prettier.printWidth": 79,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "redhat.telemetry.enabled": false,
