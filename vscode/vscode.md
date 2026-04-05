@@ -14,7 +14,7 @@ code --list-extensions
 
 ## Adding autosave
 
-To enable autosave, add the following to the settings.json file:
+To enable autosave, add the following to `settings.json`:
 
 ```json
 {
