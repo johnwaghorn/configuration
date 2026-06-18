@@ -1,4 +1,10 @@
-# conky
+# Conky
+
+## Install conky
+
+```shell
+sudo apt-get install conky-all
+```
 
 ## Config
 

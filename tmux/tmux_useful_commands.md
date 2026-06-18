@@ -1,28 +1,52 @@
 # Tmux Useful Commands
 
-Useful commands for working with tmux using the configuration provided in this repository.
+Useful commands for working with tmux generally.
 
-## How to copy
+## Create a session
 
-- Start a selection with `ctrl+a` and then `[`
-- Move up with arrow keys to area you want to copy and use `v` to select
-- Press `y` to copy selected area to clipboard
+```shell
+tmux new-session -d -s <session_name>
+tmux attach
+```
 
-## How to split panes
+## List sessions
 
-- split in half horizontally with `ctrl+a` and then `"`
-- split in half vertically with `ctrl+a` and then `%`
-
-## tmux useful commands
-
-list sessions
-
-```bash
+```shell
 tmux ls
 ```
 
-delete session
+## Attach to a session
 
-```bash
+Attach to a specific session by name:
+
+```shell
+tmux attach -t <session_name>
+```
+
+## Rename a session
+
+```shell
+tmux rename-session -t <old_name> <new_name>
+```
+
+## Delete a session
+
+```shell
 tmux kill-session -t <session_name>
+```
+
+## Reload the config
+
+Apply changes to `~/.tmux.conf` without restarting tmux:
+
+```shell
+tmux source-file ~/.tmux.conf
+```
+
+## Kill the tmux server
+
+Stop the server and every session it is running (use with care):
+
+```shell
+tmux kill-server
 ```
