@@ -43,7 +43,7 @@ Place conf file from this repo into your home directory at `~/.tmux.conf`.
 cp .tmux.conf ~/.tmux.conf
 ```
 
-Ensure you modify it for your OS.
+Ensure you modify the conf file for your OS.
 
 ```shell
 vim ~/.tmux.conf

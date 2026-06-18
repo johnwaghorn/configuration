@@ -1,6 +1,8 @@
-# Zsh and Oh My Zsh! on windows without WSL
+# Zsh and 'Oh My Zsh!' on windows without WSL
 
 This guide will show you how to install Zsh and Oh My Zsh! on Windows without using WSL. This will allow you to use Zsh as your default shell in Git Bash.
+
+Honestly this isn't worth it, just use a linux-based OS.
 
 ## Git
 

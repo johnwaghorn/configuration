@@ -1,4 +1,8 @@
-# Install Zsh
+# Zsh
+
+Zsh improves on bash with smarter tab completion, better globbing, shared command history, and rich theming/plugin support (e.g. Oh My Zsh!).
+
+## Install zsh
 
 On Debian/Ubuntu, run:
 

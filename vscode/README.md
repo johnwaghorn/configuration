@@ -1,4 +1,4 @@
-# vscode
+# VS Code
 
 ## Install code command
 

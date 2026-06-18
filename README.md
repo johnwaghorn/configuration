@@ -1,4 +1,4 @@
-# configuration
+# Configuration
 
 Configurations for various tools and .dotfiles.
 
